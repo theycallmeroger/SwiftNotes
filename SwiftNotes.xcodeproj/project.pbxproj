@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B28617E23A07B5E00B9E995 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6B28617C23A07B5E00B9E995 /* README.md */; };
+		6B28617F23A07B5E00B9E995 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B28617D23A07B5E00B9E995 /* Package.swift */; };
 		C961F16E1FCAD7A6000DD279 /* SwiftNotes.h in Headers */ = {isa = PBXBuildFile; fileRef = C961F16C1FCAD7A6000DD279 /* SwiftNotes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C961F1751FCAD85A000DD279 /* SwiftNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C961F1741FCAD85A000DD279 /* SwiftNotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B28617C23A07B5E00B9E995 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6B28617D23A07B5E00B9E995 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		C961F1691FCAD7A6000DD279 /* SwiftNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C961F16C1FCAD7A6000DD279 /* SwiftNotes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftNotes.h; sourceTree = "<group>"; };
 		C961F16D1FCAD7A6000DD279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +36,8 @@
 		C961F15F1FCAD7A6000DD279 = {
 			isa = PBXGroup;
 			children = (
+				6B28617D23A07B5E00B9E995 /* Package.swift */,
+				6B28617C23A07B5E00B9E995 /* README.md */,
 				C961F16B1FCAD7A6000DD279 /* SwiftNotes */,
 				C961F16A1FCAD7A6000DD279 /* Products */,
 			);
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B28617E23A07B5E00B9E995 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B28617F23A07B5E00B9E995 /* Package.swift in Sources */,
 				C961F1751FCAD85A000DD279 /* SwiftNotes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
